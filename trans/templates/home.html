@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>方言翻译</title>
+</head>
+<body>
+<!--
+<a href="/add/4/5">{{string}}</a>
+{% for i in tutorialList %}
+{%if not forloop.last%}{{i}}{%endif%}
+{% endfor %}
+-->
+<p>Just For Fun ! Feel Free To Use It ~~ </p>
+<form method="GET" action="/translate/">
+    <p>PuTongHua:</p>  
+    
+    <textarea name ="putonghua" style="min-height:60px ;width:90%">{{string1}}</textarea><br>
+    <p>FangYan:</p> 
+    <textarea name ="fangyan" style="min-height:60px ;width:90%">{{string2}}</textarea><br> 
+    <input type="submit"name='fanyi' value="translate">
+    <input type="submit"name='tijiao' value="Submit">
+    <input type="submit"name='lucky' value="Good Luck">
+    </form>
+</body>
+</html>
