@@ -15,4 +15,3 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent
 4.重启防火墙
 systemctl restart firewalld
 
-链接：https://www.jianshu.com/p/6ac0a9afa080
